@@ -5,7 +5,7 @@ Companion demo notebook to the following paper:  [Link to paper available upon p
 
 ## Features
 
-- We provide implementations for PBI, a-piBO and piBO.
+- We provide implementations for PBI, a-piBO and [piBO](https://arxiv.org/abs/2204.11051).
 - Users can experiment with various hyperparameter values, including alpha, beta, and the standard deviation of the prior for [Materials science datasets](https://github.com/PV-Lab/Benchmarking).
 - We provide the data to reproduce figure A.15.
 
