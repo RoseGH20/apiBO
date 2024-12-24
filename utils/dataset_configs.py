@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import torch
 
-def ag_NP_function(X: torch.Tensor, df: pd.DataFrame):
+def AgNP_function(X: torch.Tensor, df: pd.DataFrame):
     x1 = X[0].item()
     x2 = X[1].item()
     x3 = X[2].item()
@@ -32,7 +32,7 @@ def crossed_barrel_function(X: torch.Tensor, df: pd.DataFrame):
 
 agnp = {"name": "AgNP",
         "path": "Benchmarking/datasets/AgNP_dataset.csv",
-        "fct": ag_NP_function,
+        "fct": AgNP_function,
         "n_iters": 40}
 
 auto_am = {"name": "AutoAM",
