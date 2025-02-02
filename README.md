@@ -1,6 +1,6 @@
 # a-piBO
 
-Companion demo notebook to the following paper:  [Link to paper available upon publication].
+Companion demo notebook to the following paper: [Robust prior-biased acquisition function for human-in-the-loop Bayesian optimization](https://doi.org/10.1016/j.knosys.2025.113039).
 
 
 ## Features
@@ -15,7 +15,16 @@ We recommend using Google Colab to run the notebook for a seamless experience; s
 ## Citation
 If you use a-piBO, please cite our paper:
 ```
-citation
+@article{guay2025robust,
+  title={Robust prior-biased acquisition function for human-in-the-loop Bayesian optimization},
+  author={Guay-Hottin, Rose and Kardassevitch, Lison and Pham, Hugo and Lajoie, Guillaume and Bonizzato, Marco},
+  journal={Knowledge-Based Systems},
+  volume = {311},
+  pages={113039},
+  year={2025},
+  doi = {https://doi.org/10.1016/j.knosys.2025.113039},
+  publisher={Elsevier}
+}
 ```
 
 ## Authors
